@@ -11,6 +11,13 @@
          revision="yu-mm6.0.1"
          sync-j="8" />
 
+ <remote name="yuMy"
+         fetch=".."
+         sync-c="true"
+         review="http://52.74.152.146:8081/"
+         revision="yu-mm6.0.1"
+         sync-j="8" />
+
   <remote name="github"
          fetch="https://github.com" />
   
@@ -52,7 +59,7 @@
   <project name="YUTeleventures/android_frameworks_av" path="frameworks/av" remote="yu" revision="yu-mm6.0.1" />
   
   <!-- Devices Specific Start-->
-  <project path="device/yu/tomato" name="YUTeleventures/device_yu_tomato" remote="yu" revision="yu-mm6.0.1" />
+  <project path="device/yu/tomato" name="saibiju/device_yu_tomato" remote="yuMy" revision="yu-mm6.0.1" />
   <project path="device/yu/lettuce" name="YUTeleventures/device_yu_lettuce" remote="yu" revision="yu-mm6.0.1" />
   <project path="kernel" name="YUTeleventures/kernel_msm8916" remote="yu" revision="yu-mm6.0.1" />
   <project path="vendor/yu/" name="YUTeleventures/proprietary_vendor_yu" remote="yu" revision="yu-mm6.0.1" />
